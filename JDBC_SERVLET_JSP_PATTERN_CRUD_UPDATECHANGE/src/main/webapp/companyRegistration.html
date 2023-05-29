@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="ISO-8859-1">
+		<title>Company Registration</title>
+		<link rel="icon" href="https://media.licdn.com/dms/image/C4D0BAQELTzC6BB1cDg/company-logo_200_200/0/1606302807294?e=2147483647&v=beta&t=GzPDKsbXrADl3jhhKv6lXmP_acyYVt3htUh3ECOT4hU" ></link>
+	</head>
+
+	<body style="margin-left:20px; margin-top:20px">
+		<h1 align="center" >Company Registration</h1>
+		<div align="center" >
+			<form method="post" action="registration">
+				<label for="vatNumber">VAT Number</label>
+				<input required type="text" name="vatNumber" placeholder="Inserisci la tua partita iva"/>
+				<br><br>
+				<label for="businessName">Business Name</label>
+				<input type="text" name="businessName" placeholder="Inserisci il tuo nome"/>
+				<br><br>
+				<label for="addressLocation">Address Location</label>
+				<input type="text" name="addressLocation" placeholder="Inserisci il tuo indirizzo"/>
+				<br><br>
+				<label for="employeesNumber">Employees Number</label>
+				<input type="text" name="employeesNumber" placeholder="Inserisci il N° dei tuoi impiegati" style="width:200px;"/>	
+				<br><br>
+				<input class="submitButton" type="submit" value="Registration">
+			</form>
+		</div>
+	</body>
+
+	<style>
+	
+		.submitButton {
+			background-color: blue;
+			color: white;
+		}
+		
+		label {
+			font-weight: bold;
+		}
+		
+	</style>
+</html>
